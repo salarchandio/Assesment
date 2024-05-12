@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "AssesmentWebApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings": "server=DESKTOP-VT8MSNI; database=assesmentdb; Integrated Security=True; MultipleActiveResultsSets=True; TrustServerCertificate=True;"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7157;http://localhost:5026"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:17838",
+      "sslPort": 44324
+    }
+  }
+}
